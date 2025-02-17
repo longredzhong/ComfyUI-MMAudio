@@ -4,7 +4,7 @@ from pathlib import Path
 import einops
 import torch
 from omegaconf import OmegaConf
-from timm.layers import trunc_normal_
+from timm.models.layers import trunc_normal_
 from torch import nn
 
 from ...ext.synchformer.utils import check_if_file_exists_else_download
